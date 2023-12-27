@@ -1,0 +1,23 @@
+.scroll-up-page {
+    padding: 9px;
+    background-color: #333333c3;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 99;
+    font-size: 32px;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+.scroll-up-page:hover {
+    background-color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .scroll-up-page {
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,50 @@
+.main-column {
+    display: flex;
+    column-gap: 7%;
+    text-align: left;
+}
+
+.main-content {
+    width: 70%;
+}
+
+.main-info {
+    width: 30%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info .title-sm {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font: bold 12px 'raleway-medium';
+}
+
+.main-info .subline::after {
+    width: 30px;
+    left: 0;
+    transform: unset;
+}
+
+.main-info .list-item {
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 14px;
+}
+
+.main-info .list-icon {
+    font-size: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-column {
+        flex-wrap: wrap;
+    }
+
+    .main-content,
+    .main-info {
+        width: 100%;
+    }
+}

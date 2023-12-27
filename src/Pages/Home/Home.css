@@ -1,0 +1,11 @@
+/* hero */
+.home .hero {
+    min-height: 100vh;
+    background-image: url(../../Assets/Images/Home-Hero.webp);
+}
+
+/* parallax */
+.home .parallax .semicircular::before, 
+.home .parallax .semicircular::after {
+    background-color: var(--bg-color);
+}

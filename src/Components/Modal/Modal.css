@@ -1,0 +1,148 @@
+/* Animations */
+@keyframes show-modal {
+    0% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes show-img {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Style */
+.modal {
+    background-color: #000000d7;
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    animation: show-modal 0.25s linear;
+}
+
+/* button */
+.modal button {
+    position: absolute;
+    z-index: 100;
+}
+
+.modal:has(.full) button {
+    opacity: 0;
+}
+
+.modal:has(.full):hover button {
+    opacity: 1;
+    background-color: #fff;
+    color: #000000;
+}
+
+.modal .btn-close {
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.modal :is(.btn-left , .btn-right) {
+    top: 50%;
+    font-size: 26px;
+    transform: translateY(-50%);
+}
+
+.modal :is(.btn-left , .btn-right):active {
+    transform: translateY(-50%) scale(0.8);
+}
+
+.btn-left {
+    left: 1%;
+}
+.btn-right {
+    right: 1%;
+}
+
+/* img */
+.modal-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 70%;
+    max-width: 60%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px #000000db;
+}
+
+.modal-img img {
+    object-fit: contain;
+}
+
+.show-img {
+    animation: show-img 0.25s linear;
+}
+
+.modal .full {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #000000d7;
+    position: absolute;
+    z-index: 99;
+    animation: show-img 0.25s linear;
+}
+
+/* tab */
+.modal .tab {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.modal .tab-item {
+    max-height: 12vh;
+    width: 100px;
+    box-shadow: 0px 5px 15px #000000db;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.modal .tab-item:hover {
+    transform: translateY(-5%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .modal button {
+        padding: 8px;
+    }
+
+    .modal :is(.btn-left , .btn-right) {
+        top: 95%;
+    }
+
+    .btn-left {
+        left: 25%;
+    }
+    .btn-right {
+        right: 25%;
+    }
+
+    .modal-img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .modal .tab {
+        margin-bottom: 60px;
+    }
+}

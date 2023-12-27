@@ -1,0 +1,9 @@
+.recent-works .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.recent-works .gallery-img {
+    width: 70px;
+}

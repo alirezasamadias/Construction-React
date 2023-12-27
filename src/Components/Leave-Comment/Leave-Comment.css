@@ -1,0 +1,42 @@
+.leave-comment {
+    margin-top: 25px;
+}
+
+.leave-comment form {
+    padding: 20px 0;
+    justify-content: stretch;
+    gap: 10px;
+}
+
+.leave-comment .form-group {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    text-transform: unset;
+}
+
+.leave-comment .form-item:not(textarea) {
+    margin-top: unset;
+}
+
+.leave-comment .form-group.checkbox {
+    margin: 10px 0;
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+
+.form-group.checkbox :nth-child(n) {
+    cursor: pointer;
+}
+
+.leave-comment input[type=checkbox] {
+    align-self: flex-start;
+    margin: 5px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .leave-comment .form-group {
+        flex-wrap: wrap;
+    }
+}

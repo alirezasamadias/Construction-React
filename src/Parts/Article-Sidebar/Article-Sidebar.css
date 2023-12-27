@@ -1,0 +1,44 @@
+.sidebar {
+    row-gap: 50px;
+    font-size: 15px;
+}
+
+.sidebar .title-md {
+    margin-bottom: 25px;
+    padding: 9px 15px;
+    background-color: var(--bg-color);
+    letter-spacing: 1px;
+    font: lighter 20px 'raleway-regular';
+    color: var(--secondary-color);
+}
+
+.sidebar .title-sm {
+    text-transform: capitalize;
+}
+
+.sidebar .list-item {
+    margin-bottom: unset;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    column-gap: 5px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.sidebar .list-item:last-child {
+    border-bottom: none;
+}
+
+.sidebar .list-item-link {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.sidebar .list-item-link .icon-right {
+    align-self: flex-start;
+    padding-top: 4px;
+}

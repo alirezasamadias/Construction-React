@@ -1,0 +1,8 @@
+.news {
+    background-color: var(--bg-color);
+}
+
+.news .btn-hide::before,
+.news .btn-hide::after {
+    border-top-color: #fff;
+}

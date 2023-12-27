@@ -1,0 +1,43 @@
+.call-to-action {
+    min-height: 60vh;
+    background: url(../../Assets/Images/Call-To-Action.webp) no-repeat center 70%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+    color: #fff;
+    display: grid;
+}
+
+.call-to-action .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.call-to-action .title-lg {
+    font-size: 34px;
+}
+
+.call-to-action .subline::after {
+    left: 0;
+    transform: unset;
+}
+
+.call-to-action .content {
+    max-width: 700px;
+    text-transform: capitalize;
+    font: 20px / 1.5 'raleway-regular';
+}
+
+.sub-btn {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .call-to-action .container {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+}

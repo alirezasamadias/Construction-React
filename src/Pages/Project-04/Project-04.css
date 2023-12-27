@@ -1,0 +1,9 @@
+.project-04 .hero {
+    background-image: url(../../Assets/Images/Project-04-Hero.webp);
+    background-position-y: 20px;
+}
+
+/* call to action form */
+.project-04 .call-to-action-form {
+    background-image: url(../../Assets/Images/Work-Call-To-Action.webp);
+}

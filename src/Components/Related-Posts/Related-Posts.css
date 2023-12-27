@@ -1,0 +1,44 @@
+.related-posts .parent-items {
+    margin-top: 25px;
+}
+
+.related-posts .img-shadow .title-sm {
+    display: none;
+}
+
+.related-posts .post-content {
+    padding: 15px 5px 0;
+}
+
+.related-posts .post-content .title-md {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.related-posts .post-info {
+    margin: unset;
+    padding: unset;
+    margin-top: 5px;
+    border: none;
+    font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .related-posts .parent-items {
+        grid-template-columns: repeat(3,1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .related-posts .parent-items {
+        row-gap: 40px;
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .related-posts .post-content .title-md {
+        font-size: 15px;
+    }
+}

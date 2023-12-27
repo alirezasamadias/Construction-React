@@ -1,0 +1,100 @@
+.accordion .container {
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 40px;
+    text-align: left;
+}
+
+.accordion .tab-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: sticky;
+    top: 80px;
+    left: 0;
+}
+
+.accordion .tab-item {
+    width: 250px;
+    background-color: var(--bg-color);
+    padding: 12px 28px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #333;
+    transition-duration: 0.25s;
+}
+
+.accordion .current-item,
+.accordion .tab-item:hover {
+    background-color: var(--primary-color);
+}
+
+.accordion-items {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.accordion .tab-content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    inset: 0;
+    transition-duration: 0.5s;
+}
+
+.accordion .show-item {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+
+.accordion .tab-pane {
+    display: grid;
+    row-gap: 20px;
+}
+
+.accordion div.tab-item {
+    display: none;
+}
+
+.accordion .tab-img {
+    max-height: 60vh;
+    margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .accordion .container {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .accordion .tab-list {
+        display: none;
+    }
+
+    .accordion div:has(.tab-item) {
+        width: 100%;
+    }
+    
+    .accordion div.tab-item {
+        display: block;
+        width: 100%;
+        padding: 17px 22px;
+        margin-bottom: 10px;
+    }
+
+    .accordion .tab-content {
+        display: grid;
+        grid-template-rows: repeat(1,0);
+        overflow: hidden;
+        position: relative;
+    }
+
+    .accordion .show-item {
+        margin: 20px 0;
+        grid-template-rows: repeat(1,auto);
+    }
+}

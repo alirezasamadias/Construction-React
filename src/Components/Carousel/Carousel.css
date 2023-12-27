@@ -1,0 +1,51 @@
+.parent-carousel {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.carousel {
+    cursor: grab;
+    scroll-behavior: smooth;
+    position: relative;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: all 0.3s , cursor 0s;
+}
+
+.carousel.dragging {
+    cursor: grabbing;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    padding: 15px;
+    object-fit: contain;
+    user-select: none;
+    width: calc(100% / 5);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .carousel img{
+        width: calc(100% / 4);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel img {
+        width: calc(100% / 3);
+    }
+}
+
+@media (max-width:600px) {
+    .carousel img{
+        width: calc(100% / 2);
+    }
+}

@@ -1,0 +1,26 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+}
+
+.gallery :first-child {
+    grid-row: span 2;
+}
+
+.gallery-img {
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}

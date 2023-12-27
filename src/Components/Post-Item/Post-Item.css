@@ -1,0 +1,30 @@
+.post-item {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-content {
+    flex-grow: 1;
+    padding: 25px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: left;
+}
+
+.post-item .title-md {
+    font-size: 22px;
+}
+
+.post-info {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--bg-color);
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.post-item .text-link {
+    color: var(--secondary-color);
+}

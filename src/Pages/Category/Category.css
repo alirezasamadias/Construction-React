@@ -1,0 +1,33 @@
+/* hero */
+.category .hero {
+    min-height: 45vh;
+    background-color: #333;
+}
+
+.category .hero .title-lg {
+    text-transform: capitalize;
+    font-family: 'raleway-regular';
+}
+
+/* category items */
+.category .post-item {
+    box-shadow: 0px 5px 10px #00000018;
+}
+
+.category .post-item .title-md {
+    margin-bottom: unset;
+}
+
+.category .post-info {
+    flex-grow: 1;
+    margin-top: 15px;
+}
+
+.category .post-category {
+    border: none;
+}
+
+.category .btn-read-more {
+    margin-top: auto;
+    margin-left: unset;
+}

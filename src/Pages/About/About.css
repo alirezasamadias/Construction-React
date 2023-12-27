@@ -1,0 +1,9 @@
+/* hero */
+.about .hero {
+    background-image: url(../../Assets/Images/About-Hero.webp);
+}
+
+/* parallax */
+.about .parallax {
+    background-image: url(../../Assets/Images/About-Parallax.webp);
+}

@@ -1,0 +1,45 @@
+/* hero */
+.get-quote .hero {
+    background-image: url(../../Assets/Images/Get-Quote-Hero.webp);
+}
+
+/* main column */
+.get-quote .main-column {
+    column-gap: unset;
+}
+
+/* maine-info */
+.get-quote .main-info {
+    padding: 90px 30px 90px 6%;
+    background-color: var(--bg-color);
+    row-gap: 35px;
+}
+
+.get-quote .main-info .subline {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.get-quote .main-info .title-sm {
+    font-size: 16px;
+}
+
+/* main content */
+.get-quote .main-content {
+    padding: 0 2%;
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width:1024px) {
+    .get-quote .form-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .get-quote .main-info {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

@@ -1,0 +1,27 @@
+.article-items .container {
+    width: min(100%,1070px);
+    padding: 90px 8%;
+    row-gap: 80px;
+}
+
+.article-items .post-info {
+    display: none;
+}
+
+.article-items .post-content {
+    margin-top: 30px;
+    padding: unset;
+    row-gap: 20px;
+}
+
+.article-items .post-content .title-md {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* Responsive */
+@media (max-width:600px) {
+    .article-items .post-content .title-md {
+        font-size: 22px;
+    }
+}

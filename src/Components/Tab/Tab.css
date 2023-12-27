@@ -1,0 +1,55 @@
+.tab.tab-articles {
+    border: 1px solid var(--bg-color);
+}
+
+.tab-articles .tab-list {
+    display: flex;
+}
+
+.tab-articles .tab-item {
+    width: 50%;
+    padding: 12px;
+    background-color: var(--bg-color);
+    border-top: 3px solid transparent;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.25s;
+}
+
+.tab-articles .tab-item:hover {
+    background-color: transparent;
+}
+
+.tab-articles .current-item {
+    background-color: transparent;
+    border-color: var(--primary-color);
+}
+
+.tab-list-item {
+    padding: 20px 15px;
+    border-bottom: 1px solid var(--bg-color);
+    display: flex;
+    column-gap: 15px;
+    line-height: 1;
+}
+
+.tab-list-item:last-child {
+    border-bottom: none;
+}
+
+.tab .title-sm {
+    font: normal 15px 'raleway-medium';
+}
+
+.tab .post-info {
+    margin: unset;
+    padding: unset;
+    border: none;
+}
+
+.item-img {
+    width: 60px;
+    height: 55px;
+}

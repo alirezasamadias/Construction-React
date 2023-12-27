@@ -1,0 +1,14 @@
+/* hero */
+.services .hero {
+    background-image: url(../../Assets/Images/Services-Hero.webp);
+}
+
+/* partners */
+.services .partners {
+    background-color: var(--bg-color);
+    padding-bottom: 0;
+}
+
+.services .partners .semicircular::after {
+    display: none;
+}

@@ -1,0 +1,58 @@
+/* Animations */
+@keyframes show {
+    0% {
+        transform: translateY(11%);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Style */
+.hero {
+    width: 100%;
+    min-height: 95vh;
+    padding-top: 100px;
+    background: no-repeat center 100px;
+    position: relative;
+    display: grid;
+}
+
+.hero .container {
+    padding: 50px;
+    justify-content: center;
+    row-gap: 10px;
+    animation: show 0.5s 0.5s linear;
+}
+
+.hero-content {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 22px;
+    color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width:600px) {
+    .hero {
+        padding-top: 80px;
+        background-position-y: 80px;
+    }
+
+    .hero .container {
+        padding: 30px;
+    }
+}
+
+@media (max-width:426px) {  
+    .hero-content {
+        font-size: 20px;
+    }
+
+    .hero .container {
+        padding: 10px;
+    }
+}

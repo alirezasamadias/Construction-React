@@ -1,0 +1,20 @@
+/* hero */
+.work .hero {
+    background-image: url(../../Assets/Images/Work-Hero.webp);
+    background-position-y: center;
+}
+
+/* partners */
+.work .partners {
+    background-color: var(--bg-color);
+    padding-bottom: 0;
+}
+
+.work .partners .semicircular::after {
+    display: none;
+}
+
+/* call to action form */
+.work .call-to-action-form {
+    background-image: url(../../Assets/Images/Work-Call-To-Action.webp);
+}

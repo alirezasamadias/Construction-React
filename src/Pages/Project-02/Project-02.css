@@ -1,0 +1,10 @@
+/* hero */
+.project-02 .hero {
+    background-image: url(../../Assets/Images/Project-02-Hero.jpg);
+    background-position-y: 20px;
+}
+
+/* call to action form */
+.project-02 .call-to-action-form {
+    background-image: url(../../Assets/Images/Project-02-Call-To-Action.jpg);
+}

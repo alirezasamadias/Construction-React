@@ -1,0 +1,32 @@
+.portfolio-item .subline {
+    text-align: left;
+}
+
+.portfolio-item .subline::after {
+    width: 30px;
+    left: 0;
+    transform: unset;
+}
+
+/* main column */
+.portfolio-item .main-column {
+    margin-bottom: 60px;
+}
+
+/* main content */
+.portfolio-item .main-content p {
+    margin-bottom: 25px;
+}
+
+/* main-info */
+.portfolio-item .main-info .list-item {
+    margin: 7px 0 22px;
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .portfolio-item .main-column {
+        row-gap: 25px;
+    }
+}

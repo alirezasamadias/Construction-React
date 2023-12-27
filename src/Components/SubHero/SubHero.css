@@ -1,0 +1,26 @@
+.subhero {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 40px 20px 60px;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.subhero .btn {
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.subhero .btn:hover {
+    border-color: var(--secondary-color);
+}
+
+/* Responsive */
+@media (max-width:600px) {
+    .subhero {
+        padding: 30px 20px 50px;
+    }
+}

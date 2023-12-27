@@ -1,0 +1,15 @@
+.tag-link {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 8px 14px;
+    border: 1px solid #e6e6e6;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: var(--secondary-color);
+    transition-duration: 0.25s;
+}
+
+.tag-link:hover {
+    background-color: #c6c7cc;
+    color: #fff;
+}

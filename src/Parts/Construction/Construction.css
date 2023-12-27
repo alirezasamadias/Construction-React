@@ -1,0 +1,57 @@
+.construction .parent-items {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card-parent {
+    perspective: 1000px;
+}
+
+.rotatory-card {
+    transform-style: preserve-3d;
+    transition: 0.5s cubic-bezier(0.2, 0.85, 0.4, 1.275);
+}
+
+.card-parent:hover .rotatory-card {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    height: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    background-color: var(--bg-color);
+    transform: rotateY(0deg);
+}
+
+.card-front .title-md {
+    font-size: 24px;
+}
+
+.card-front-icon {
+    padding: 18px;
+    border-radius: 50%;
+    border: 1px solid #747474;
+    font-size: 28px;
+}
+
+.card-back {
+    background-color: var(--primary-color);
+    transform: rotateY(180deg);
+    position: absolute;
+    inset: 0;
+    color: var(--secondary-color);
+}
+
+.card-back .title-sm {
+    text-transform: uppercase;
+}

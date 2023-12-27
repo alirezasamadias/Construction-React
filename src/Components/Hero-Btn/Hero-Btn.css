@@ -1,0 +1,11 @@
+.hero-btn .btn {
+    margin: 15px 8px 0;
+}
+
+.hero-btn .btn:hover {
+    transform: translateY(-8%);
+}
+
+.hero-btn .btn-secondary:hover {
+    background-color: var(--primary-color);
+}

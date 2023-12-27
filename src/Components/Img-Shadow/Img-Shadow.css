@@ -1,0 +1,55 @@
+.parent-img-shadow {
+    max-height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-shadow {
+    padding: 0 12%;
+    background-color: var(--primary-color);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition-duration: 0.5s;
+}
+
+.parent-img-shadow:hover .img-shadow {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.shadow-btn {
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 20px;
+    color: black;
+    transition-duration: 0.25s;
+}
+
+.shadow-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.img-shadow .title-sm {
+    color: #fff;
+}
+
+.img-shadow .title-sm:nth-child(3) {
+    font-size: 14px;
+}
+
+.cover {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}

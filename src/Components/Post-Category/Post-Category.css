@@ -1,0 +1,18 @@
+.post-category {
+    margin-top: 10px;
+    padding: 5px 0;
+    border: 1px solid #e7e6e6;
+    border-left: unset;
+    border-right: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 50px;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.post-category p {
+    all: unset;
+}

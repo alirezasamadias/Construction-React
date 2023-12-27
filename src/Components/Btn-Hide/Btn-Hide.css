@@ -1,0 +1,55 @@
+.btn-hide {
+    width: calc(100% / 3);
+    margin-top: 70px;
+    color: var(--secondary-color);
+    position: relative;
+}
+
+.btn-hide:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-hide::before,
+.btn-hide::after {
+    content: '';
+    pointer-events: none;
+    width: 80%;
+    border-top: 2px solid var(--bg-color);
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+
+.btn-hide::before {
+    left: 110%;
+}
+
+.btn-hide::after {
+    right: 110%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .btn-hide {
+        width: 100%;
+    }
+
+    .btn-hide:hover {
+        background-color: var(--primary-color);
+    }
+    
+    .btn-hide::before,
+    .btn-hide::after {
+        width: 100%;
+        left: 0;
+    }
+    
+    .btn-hide::before {
+        top: 150%;
+    }
+    
+    .btn-hide::after {
+        top: -50%;
+    }
+}
