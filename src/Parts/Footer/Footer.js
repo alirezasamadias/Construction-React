@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FooterLogo from '../../Assets/Images/Footer-Logo.webp';
 // Components
 import Tweet from '../../Components/Tweet/Tweet';
-import Map from '../Map/Map';
+import Map from '../../Parts/Map/Map';
 import SocialMedia from '../../Components/Social-Media/Social-Media';
 import ScrollUp from '../../Components/Scroll-Up/Scroll-Up';
 // Css

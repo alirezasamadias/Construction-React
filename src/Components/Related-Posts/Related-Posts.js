@@ -3,7 +3,7 @@ import BlogPost01 from '../../Assets/Images/Blog-Post-01.jpg';
 import BlogPost02 from '../../Assets/Images/Blog-Post-02.jpg';
 import BlogPost03 from '../../Assets/Images/Blog-Post-03.jpg';
 // Components
-import PostItem from '../Post-Item/Post-Item';
+import PostItem from '../../Components/Post-Item/Post-Item';
 // Css
 import './Related-Posts.css';
 
