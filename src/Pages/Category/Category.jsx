@@ -18,7 +18,7 @@ import BoxCategoryLg from '../../Components/Box-Category/Box-Category-Lg';
 import useTabTitle from '../../Hooks/useTabTitle';
 import useCurrentPage from '../../Hooks/useCurrentPage';
 // Css
-import './category.css';
+import './Category.css';
 import Loader from '../../Components/Loader/Loader';
 
 // Fake Server

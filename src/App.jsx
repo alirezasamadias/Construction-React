@@ -15,7 +15,7 @@ import Article01 from './Pages/Article-01/Article-01';
 import Article02 from './Pages/Article-02/Article-02';
 import Article03 from './Pages/Article-03/Article-03';
 import GetQuote from './Pages/Get-Quote/Get-Quote';
-import Category from './Pages/category/category';
+import Category from './Pages/Category/Category';
 import Footer from './Parts/Footer/Footer';
 
 function App() {
