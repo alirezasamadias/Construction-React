@@ -34,7 +34,7 @@ function ImgShadow(props) {
                         {categories.map((category , index) => {
                             return (
                                 <span key={index + 1}>
-                                    <Link to={`/Category#${category}`} className='post-target'>{category}</Link>
+                                    <Link to={`/category#${category}`} className='post-target'>{category}</Link>
                                     
                                     {/* index + 1 => next child */}
                                     {categories[index + 1] && ' , '}

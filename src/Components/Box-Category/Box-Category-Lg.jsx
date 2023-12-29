@@ -12,7 +12,7 @@ function BoxCategoryLg(props) {
             {categories.map((category , index) => {
                 return (
                     <span key={index + 1}>
-                        <Link to={`/Category#${category}`} className='text-link post-target'>{category}</Link>
+                        <Link to={`/category#${category}`} className='text-link post-target'>{category}</Link>
 
                         {/* index + 1 => next child */}
                         {categories[index + 1] ? ' , ' : ''}
@@ -25,7 +25,7 @@ function BoxCategoryLg(props) {
             {tags.map((tag , index) => {
                 return (
                     <span key={index + 1}>
-                        <Link to={`/Category#${tag}`} className='text-link post-target'>{tag}</Link>
+                        <Link to={`/category#${tag}`} className='text-link post-target'>{tag}</Link>
 
                         {/* index + 1 => next child */}
                         {tags[index + 1] ? ' , ' : ''}

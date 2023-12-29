@@ -15,7 +15,7 @@ import Article01 from './Pages/Article-01/Article-01';
 import Article02 from './Pages/Article-02/Article-02';
 import Article03 from './Pages/Article-03/Article-03';
 import GetQuote from './Pages/Get-Quote/Get-Quote';
-import Category from './Pages/Category/Category';
+import Category from './Pages/category/category';
 import Footer from './Parts/Footer/Footer';
 
 function App() {
@@ -25,19 +25,19 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/About' element={<About/>} />
-        <Route path='/Services' element={<Services/>} />
-        <Route path='/Work' element={<Work/>} />
-        <Route path='/Project01' element={<Project01/>} />
-        <Route path='/Project02' element={<Project02/>} />
-        <Route path='/Project03' element={<Project03/>} />
-        <Route path='/Project04' element={<Project04/>} />
-        <Route path='/Articles' element={<Articles/>} />
-        <Route path='/Article01' element={<Article01/>} />
-        <Route path='/Article02' element={<Article02/>} />
-        <Route path='/Article03' element={<Article03/>} />
-        <Route path='/GetQuote' element={<GetQuote/>} />
-        <Route path='/Category' element={<Category/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/services' element={<Services/>} />
+        <Route path='/work' element={<Work/>} />
+        <Route path='/project01' element={<Project01/>} />
+        <Route path='/project02' element={<Project02/>} />
+        <Route path='/project03' element={<Project03/>} />
+        <Route path='/project04' element={<Project04/>} />
+        <Route path='/articles' element={<Articles/>} />
+        <Route path='/article01' element={<Article01/>} />
+        <Route path='/article02' element={<Article02/>} />
+        <Route path='/article03' element={<Article03/>} />
+        <Route path='/get-quote' element={<GetQuote/>} />
+        <Route path='/category' element={<Category/>} />
       </Routes>
       <Footer/>
     </div>

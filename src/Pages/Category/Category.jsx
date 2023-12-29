@@ -18,7 +18,7 @@ import BoxCategoryLg from '../../Components/Box-Category/Box-Category-Lg';
 import useTabTitle from '../../Hooks/useTabTitle';
 import useCurrentPage from '../../Hooks/useCurrentPage';
 // Css
-import './Category.css';
+import './category.css';
 import Loader from '../../Components/Loader/Loader';
 
 // Fake Server
@@ -27,7 +27,7 @@ const data = [
         id: 1,
         image: BlogPost01,
         alt: 'Blog Post',
-        link: '/Article01',
+        link: '/article01',
         title: 'redeveloping florida’s remote southern coast',
         content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare leo, eget aliquam ante. Sed cursus malesuada fringilla. Cras porta ipsum sed nibh consectetur, a accumsan velit viverra. Etiam at lorem accumsan, aliquam est at, auctor tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis ipsum pellentesque, vulputate tellus ac, suscipit neque. Praesent arcu ante, pharetra nec turpis sed, malesuada vulputate tortor.',
         categories: ['architecture','buildings','contortion','news'],
@@ -39,7 +39,7 @@ const data = [
         id: 2,
         image: BlogPost02,
         alt: 'Blog Post',
-        link: '/Article02',
+        link: '/article02',
         title: 'how We manage large construction projects',
         content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare leo, eget aliquam ante. Sed cursus malesuada fringilla. Cras porta ipsum sed nibh consectetur, a accumsan velit viverra. Etiam at lorem accumsan, aliquam est at, auctor tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis ipsum pellentesque, vulputate tellus ac, suscipit neque. Praesent arcu ante, pharetra nec turpis sed, malesuada vulputate tortor.',
         categories: ['architecture','contortion','engineering'],
@@ -51,7 +51,7 @@ const data = [
         id: 3,
         image: BlogPost03,
         alt: 'Blog Post',
-        link: '/Article03',
+        link: '/article03',
         title: 'future proofing a modern home',
         content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed at magna. Nullam eget ornare leo, eget aliquam ante. Sed cursus malesuada fringilla. Cras porta ipsum sed nibh consectetur, a accumsan velit viverra. Etiam at lorem accumsan, aliquam est at, auctor tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque quis ipsum pellentesque, vulputate tellus ac, suscipit neque. Praesent arcu ante, pharetra nec turpis sed, malesuada vulputate tortor.',
         categories: ['architecture','contortion','marketing'],
@@ -63,7 +63,7 @@ const data = [
         id: 4,
         image: Project01,
         alt: 'Florida Heath Facility',
-        link: '/Project01',
+        link: '/project01',
         title: 'florida heath facility',
         content: 'healthy living in Florida flexible health facilities in south florida healthy living in Florida flexible health facilities in south florida do you have a construction project we can help with? Get a free quote Belle Glade, Florida Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor ullamcorper odio, vel ultrices nisl tempus vitae. Nullam at eros vitae elit lacinia tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eu ligula libero. Curabitur lacinia enim.',
         categories: ['commercial'],
@@ -75,7 +75,7 @@ const data = [
         id: 5,
         image: Project02,
         alt: 'Maine Modernity',
-        link: '/Project02',
+        link: '/project02',
         title: 'Maine Modernity',
         content: 'healthy living in Florida flexible health facilities in south florida healthy living in Florida flexible health facilities in south florida do you have a construction project we can help with? Get a free quote Belle Glade, Florida Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor ullamcorper odio, vel ultrices nisl tempus vitae. Nullam at eros vitae elit lacinia tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eu ligula libero. Curabitur lacinia enim.',
         categories: ['residential'],
@@ -87,7 +87,7 @@ const data = [
         id: 6,
         image: Project03,
         alt: 'Exclusive Urban Living',
-        link: '/Project03',
+        link: '/project03',
         title: 'Exclusive Urban Living',
         content: 'healthy living in Florida flexible health facilities in south florida healthy living in Florida flexible health facilities in south florida do you have a construction project we can help with? Get a free quote Belle Glade, Florida Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor ullamcorper odio, vel ultrices nisl tempus vitae. Nullam at eros vitae elit lacinia tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eu ligula libero. Curabitur lacinia enim.',
         categories: ['commercial'],
@@ -99,7 +99,7 @@ const data = [
         id: 7,
         image: Project04,
         alt: 'Blue Concrete House',
-        link: '/Project04',
+        link: '/project04',
         title: 'Blue Concrete House',
         content: 'healthy living in Florida flexible health facilities in south florida healthy living in Florida flexible health facilities in south florida do you have a construction project we can help with? Get a free quote Belle Glade, Florida Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor ullamcorper odio, vel ultrices nisl tempus vitae. Nullam at eros vitae elit lacinia tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent eu ligula libero. Curabitur lacinia enim.',
         categories: ['residential'],

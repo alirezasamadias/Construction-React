@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import FooterLogo from '../../Assets/Images/Footer-Logo.webp';
 // Components
 import Tweet from '../../Components/Tweet/Tweet';
-import Map from '../../Parts/Map/Map';
+import Map from '../Map/Map';
 import SocialMedia from '../../Components/Social-Media/Social-Media';
 import ScrollUp from '../../Components/Scroll-Up/Scroll-Up';
 // Css
@@ -53,7 +53,7 @@ function Footer() {
 
           <p>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</p>
 
-          <Link to='/About' className='btn btn-primary'>learn more</Link>
+          <Link to='/about' className='btn btn-primary'>learn more</Link>
         </div>
 
         {/* item 02 */}

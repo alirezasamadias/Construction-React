@@ -92,44 +92,44 @@ function Header() {
           </li>
           
           <li className='menu-item'>
-            <Link to='/About' className='menu-item-link menu-link'>about</Link>
+            <Link to='/about' className='menu-item-link menu-link'>about</Link>
           </li>
           
           <li className='menu-item'>
-            <Link to='/Services' className='menu-item-link menu-link'>services</Link>
+            <Link to='/services' className='menu-item-link menu-link'>services</Link>
           </li>
           
           <li className='menu-item work'>
-            <Link to='/Work' className='menu-item-link menu-link'>work</Link>
+            <Link to='/work' className='menu-item-link menu-link'>work</Link>
 
             {/* submenu */}
             <button className={`submenu-btn ${(show.subMenu ? 'icon-up' : 'icon-down')}`} onClick={subMenuHandler}></button>
 
             <ul className={`submenu ${(show.subMenu ? 'show-submenu' : '')}`}>
               <li className='submenu-item'>
-                <Link to='/Project01' className='submenu-link menu-link'>florida heath facility</Link>
+                <Link to='/project01' className='submenu-link menu-link'>florida heath facility</Link>
               </li>
 
               <li className='submenu-item'>
-                <Link to='/Project02' className='submenu-link menu-link'>maine modernity</Link>
+                <Link to='/project02' className='submenu-link menu-link'>maine modernity</Link>
               </li>
 
               <li className='submenu-item'>
-                <Link to='/Project03' className='submenu-link menu-link'>exclusive urban living</Link>
+                <Link to='/project03' className='submenu-link menu-link'>exclusive urban living</Link>
               </li>
 
               <li className='submenu-item'>
-                <Link to='/Project04' className='submenu-link menu-link'>blue concrete house</Link>
+                <Link to='/project04' className='submenu-link menu-link'>blue concrete house</Link>
               </li> 
             </ul>
           </li>
           
           <li className='menu-item'>
-            <Link to='/Articles' className='menu-item-link menu-link'>articles</Link>
+            <Link to='/articles' className='menu-item-link menu-link'>articles</Link>
           </li>
           
           <li className='menu-item'>
-            <Link to='/GetQuote' className='menu-item-link menu-link'><span className='btn btn-primary'>get quote</span></Link>
+            <Link to='/get-quote' className='menu-item-link menu-link'><span className='btn btn-primary'>get quote</span></Link>
           </li>       
         </ul>
 

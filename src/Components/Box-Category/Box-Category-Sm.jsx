@@ -12,7 +12,7 @@ function BoxCategorySm(props) {
             {categories.map((category , index) => {
                 return (
                     <span key={index + 1}>
-                        <Link  to={`/Category#${category}`} className='text-link'>{category}</Link>
+                        <Link  to={`/category#${category}`} className='text-link'>{category}</Link>
                         
                         {/* index + 1 => next child */}
                         {categories[index + 1] ? ' , ' : ''}

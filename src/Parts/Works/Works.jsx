@@ -13,7 +13,7 @@ const data = [
     id: 1,
     image: Project01,
     alt: 'Florida Heath Facility',
-    link: '/Project01',
+    link: '/project01',
     title: 'florida heath facility',
     categories: ['commercial']
   },
@@ -22,7 +22,7 @@ const data = [
     id: 2,
     image: Project02,
     alt: 'Maine Modernity',
-    link: '/Project02',
+    link: '/project02',
     title: 'maine moderniti',
     categories: ['residential']
   },
@@ -31,7 +31,7 @@ const data = [
     id: 3,
     image: Project03,
     alt: 'Exclusive Urban Living',
-    link: '/Project03',
+    link: '/project03',
     title: 'exclusion urben living',
     categories: ['commercial']
   }
@@ -64,7 +64,7 @@ function Works() {
           })}
         </div>
         
-        <BtnHide link='/Work' content='projects'></BtnHide>
+        <BtnHide link='/work' content='projects'></BtnHide>
       </div>
     </div>
   );

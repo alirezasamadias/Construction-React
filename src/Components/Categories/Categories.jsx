@@ -12,7 +12,7 @@ function Categories() {
         {data.map((category , index) => {
           return (
             <li className='list-item' key={index + 1}>
-              <Link to={`/Category#${category}`}  className='list-item-link text-link'>
+              <Link to={`/category#${category}`}  className='list-item-link text-link'>
                 <i className='icon-right'></i>
                 {category}
               </Link>

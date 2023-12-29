@@ -2,7 +2,7 @@
 import '../../Assets/Css/Main-Column.css';
 import './Article-Page.css';
 // Components
-import Hero from '../../Parts/Hero/Hero';
+import Hero from '../Hero/Hero';
 import PostCategory from '../../Components/Post-Category/Post-Category'
 import BoxCategorySm from '../../Components/Box-Category/Box-Category-Sm';
 import SharingBox from '../../Components/Sharing-Box/Sharing-Box';

@@ -12,7 +12,7 @@ function CallToAction() {
         </section>
 
         <div>
-          <Link to='/GetQuote' className='btn btn-primary btn-lg'>get a free quote</Link>
+          <Link to='/get-quote' className='btn btn-primary btn-lg'>get a free quote</Link>
           <p className='sub-btn'>Only takes a few seconds!</p>
         </div>
       </div>

@@ -5,19 +5,19 @@ const data = [
     {
         id: 1,
         title:'redeveloping florida’s remote southern coast',
-        link:'/Article01'
+        link:'/article01'
     },
 
     {
         id: 2,
         title:'how We manage large construction projects',
-        link:'/Article02'
+        link:'/article02'
     },
 
     {
         id: 3,
         title:'future proofing a modern home',
-        link:'/Article03'
+        link:'/article03'
     }
 ];
 

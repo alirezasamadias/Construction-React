@@ -13,28 +13,28 @@ const data = [
     id: 2,
     image: Project01,
     alt: 'Project',
-    link: '/Project01'
+    link: '/project01'
   },
 
   {
     id: 3,
     image: Project02 ,
     alt: 'Project' ,
-    link: '/Project02'
+    link: '/project02'
   },
 
   {
     id: 4,
     image: Project03 ,
     alt: 'Project' ,
-    link: '/Project03'
+    link: '/project03'
   },
 
   {
     id: 5,
     image: Project04 ,
     alt: 'Project' ,
-    link: '/Project04'
+    link: '/project04'
   }
 ];
 

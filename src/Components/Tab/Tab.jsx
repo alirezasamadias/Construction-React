@@ -12,7 +12,7 @@ import './Tab.css';
 const popularItems = [
   {
     id: 1,
-    link: '/Article03',
+    link: '/article03',
     image: BlogPost03,
     title: 'future proofing a modern home',
     date: 'december 6th, 2015'
@@ -20,7 +20,7 @@ const popularItems = [
 
   {
     id: 2,
-    link: '/Article01',
+    link: '/article01',
     image: BlogPost01,
     title: 'redeveloping florida’s remote southern coast',
     date: 'december 7th, 2015'
@@ -28,7 +28,7 @@ const popularItems = [
   
   {
     id: 3,
-    link: '/Article02',
+    link: '/article02',
     image: BlogPost02,
     title: 'how We manage large construction projects',
     date: 'december 7th, 2015'
@@ -38,7 +38,7 @@ const popularItems = [
 const recentItems = [
   {
     id: 1,
-    link: '/Article01',
+    link: '/article01',
     image: BlogPost01,
     title: 'redeveloping florida’s remote southern coast',
     date: 'december 7th, 2015'
@@ -47,7 +47,7 @@ const recentItems = [
 
   {
     id: 2,
-    link: '/Article02',
+    link: '/article02',
     image: BlogPost02,
     title: 'how We manage large construction projects',
     date: 'december 7th, 2015'
@@ -55,7 +55,7 @@ const recentItems = [
   
   {
     id: 3,
-    link: '/Article03',
+    link: '/article03',
     image: BlogPost03,
     title: 'future proofing a modern home',
     date: 'december 6th, 2015'

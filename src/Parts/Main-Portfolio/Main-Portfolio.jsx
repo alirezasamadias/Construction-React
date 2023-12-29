@@ -25,7 +25,7 @@ function MainPortfolio(props) {
                     
                     <dt className='title-sm'>project type</dt>
                     <dd className='list-item'>
-                        <Link to={`/Category#${projectType}`} className='text-link'>{projectType}</Link>
+                        <Link to={`/category#${projectType}`} className='text-link'>{projectType}</Link>
                     </dd>
                     
                     <dt className='title-sm'>contractor</dt>

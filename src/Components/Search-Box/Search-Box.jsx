@@ -12,7 +12,7 @@ function SearchBox(props) {
   };
 
   return (
-    <form action={`/Category#${searchValue}`} method='get' className='search-box' onSubmit={event}>
+    <form action={`/category#${searchValue}`} method='get' className='search-box' onSubmit={event}>
       <input
         type='search'
         placeholder='Search...'

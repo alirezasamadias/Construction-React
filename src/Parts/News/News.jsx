@@ -15,7 +15,7 @@ const data = [
     id: 1,
     image: BlogPost01,
     alt: 'Blog Post',
-    link: '/Article01',
+    link: '/article01',
     title: 'redeveloping florida’s remote southern coast',
     date: 'december 7th, 2015',
     content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed.',
@@ -26,7 +26,7 @@ const data = [
     id: 2,
     image: BlogPost02,
     alt: 'Blog Post',
-    link: '/Article02',
+    link: '/article02',
     title: 'how We manage large construction projects',
     date: 'december 7th, 2015',
     content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed.',
@@ -37,7 +37,7 @@ const data = [
     id: 3,
     image: BlogPost03,
     alt: 'Blog Post',
-    link: '/Article03',
+    link: '/article03',
     title: 'future proofing a modern home',
     date: 'december 7th, 2015',
     content: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed.',
@@ -66,7 +66,7 @@ function News() {
           })}
         </div>
 
-        <BtnHide link='/Articles' content='articles'></BtnHide>
+        <BtnHide link='/articles' content='articles'></BtnHide>
       </div>
     </div>
   );

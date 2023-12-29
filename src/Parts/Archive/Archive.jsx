@@ -17,7 +17,7 @@ const data = [
         dataTarget: 'commercial',
         image: Project01,
         alt: 'Florida Heath Facility',
-        link: '/Project01',
+        link: '/project01',
         title: 'florida heath facility',
         categories: ['commercial']
     },
@@ -27,7 +27,7 @@ const data = [
         dataTarget: 'residential',
         image: Project02,
         alt: 'Maine Modernity',
-        link: '/Project02',
+        link: '/project02',
         title: 'maine moderniti',
         categories: ['residential']
     },
@@ -37,7 +37,7 @@ const data = [
         dataTarget: 'commercial',
         image: Project03,
         alt: 'Exclusive Urban Living',
-        link: '/Project03',
+        link: '/project03',
         title: 'exclusion urben living',
         categories: ['commercial']
     },
@@ -47,7 +47,7 @@ const data = [
         dataTarget: 'residential',
         image: Project04,
         alt: 'Blue Concrete House',
-        link: '/Project04',
+        link: '/project04',
         title: 'blue concrete house',
         categories: ['residential']
     }

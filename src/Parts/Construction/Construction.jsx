@@ -68,7 +68,7 @@ function Construction() {
                   <section className='card-back'>
                     <h4 className='title-sm'>{backTitle}</h4>
                     <p>{backContent}</p>
-                    <Link to='/GetQuote' className='btn btn-secondary'>get a quote</Link>
+                    <Link to='/get-quote' className='btn btn-secondary'>get a quote</Link>
                   </section>
                 </div>
               </div>

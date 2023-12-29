@@ -7,7 +7,7 @@ function SubHero() {
     <section className='subhero'>
       <h2 className='title-md'>do you have a construction project we can help with?</h2>
       
-      <Link to='/GetQuote' className='btn btn-secondary'>get a free quote</Link>
+      <Link to='/get-quote' className='btn btn-secondary'>get a free quote</Link>
     </section>
   );
 }

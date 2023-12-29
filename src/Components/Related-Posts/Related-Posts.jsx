@@ -3,7 +3,7 @@ import BlogPost01 from '../../Assets/Images/Blog-Post-01.jpg';
 import BlogPost02 from '../../Assets/Images/Blog-Post-02.jpg';
 import BlogPost03 from '../../Assets/Images/Blog-Post-03.jpg';
 // Components
-import PostItem from '../../Components/Post-Item/Post-Item';
+import PostItem from '../Post-Item/Post-Item';
 // Css
 import './Related-Posts.css';
 
@@ -13,7 +13,7 @@ const data = [
         id: 1,
         image: BlogPost01,
         alt: 'Blog Post',
-        link: '/Article01',
+        link: '/article01',
         title: 'redeveloping florida’s remote southern coast', categories: [],
         date: 'december 7th, 2015'
     },
@@ -22,7 +22,7 @@ const data = [
         id: 2,
         image: BlogPost02,
         alt: 'Blog Post',
-        link: '/Article02',
+        link: '/article02',
         title: 'how We manage large construction projects',
         categories: [],
         date: 'december 7th, 2015'
@@ -32,7 +32,7 @@ const data = [
         id: 3,
         image: BlogPost03,
         alt: 'Blog Post',
-        link: '/Article03',
+        link: '/article03',
         title: 'future proofing a modern home',
         categories: [],
         date: 'december 6th, 2015'
