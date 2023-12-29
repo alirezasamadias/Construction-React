@@ -55,7 +55,7 @@ function ArticleItems() {
 
                 return (
                     <div key={id}>
-                        <PostItem image={image} alt='Blog Post' link={link} title={title} content={content} categories={categories}>
+                        <PostItem image={image} alt={alt} link={link} title={title} content={content} categories={categories}>
                             <></>
                             <PostCategory>
                                 <BoxCategorySm categories={postCategories}/>
