@@ -13,7 +13,7 @@ function Tags() {
       {data.map((tag , index) => {
         return (
           <Link
-            to={`/category#${tag.replace(' ','-').replace(' ','-').replace(' ','-')}`}
+            to={`/category#${tag.replace(/ /g,'-')}`}
            
             key={index + 1}
             className='tag-link'>{tag}</Link>

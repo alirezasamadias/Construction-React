@@ -8,7 +8,7 @@ function SearchBox(props) {
   const [searchValue , setSearchValue] = useState();
 
   const changeHandler = (e) => {
-    setSearchValue(e.target.value.trim().toLowerCase().replace(' ','-').replace(' ','-').replace(' ','-'));
+    setSearchValue(e.target.value.trim().toLowerCase().replace(/ /g,'-'));
   };
 
   return (

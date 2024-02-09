@@ -132,7 +132,7 @@ function Category() {
     <>
         <Loader/>
         <main id='main' className='category'>
-            <Hero title={windowHash.replace('-',' ').replace('-',' ').replace('-',' ')}/>
+            <Hero title={windowHash.replace(/-/g,' ')}/>
 
             {targets.length === 0 ? <Undefined/> : 
             
